@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 1000px;
+            height: 300px;
+            background-color: gray;
+           box-sizing: border-box;
+           margin: auto;
+           margin-top: 100px;
+           padding: 10px;
+        }
+        #inner{
+            width: 400px;
+            height: 250px;
+            margin-left: 20px;
+            background-color: rgb(83, 81, 81);
+            position: relative;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="card"  data-aos="flip-up"  >
+        <div id="inner ">
+            
+        </div>
+        <div id="contant">
+            
+        </div>
+    </div>
+    <div class="card "  data-aos="flip-left">
+        <div id="inner">
+            
+        </div>
+        <div id="contant">
+            
+        </div>
+    </div>
+    <div class="card" data-aos="flip-up">
+        <div id="inner">
+            
+        </div>
+        <div id="contant">
+            
+        </div>
+    </div>
+    <div class="card"  data-aos="flip-right ">
+        <div id="inner">
+            
+        </div>
+        <div id="contant">
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500,
+        offset:200,
+        easing: 'linear',
+      });
+    </script>
+</body>
+</html>
